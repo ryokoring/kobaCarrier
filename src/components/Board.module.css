@@ -1,0 +1,53 @@
+.container {
+    border: 1px solid gray; /* 枠線の色と太さを設定 */
+    padding:5px; /* 枠の内側の余白を設定 */
+    width: 80%; /* 枠の幅を設定 */
+    margin: 15px auto; /* 中央寄せにするための設定 */   
+    border-radius:25px;
+  }
+.subcontainer{
+    padding: 20px;
+    margin-top:5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:#DEECEB;
+
+}
+.center{
+  display: flex;          /* フレックスボックスを有効にする */
+    flex-direction: column; /* 子要素を縦方向に配置する */
+    align-items: center;    /* 横方向の中央に配置する */
+    justify-content: space-between; 
+}
+.title{
+    font-size:18px;
+    margin-bottom:10px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+  .table {
+    width: 100%; /* 表の幅を100%に設定 */
+    border-collapse: collapse; /* セルの境界線を重ねる */
+  }
+  
+  .table th, .table td {
+    border: 1px solid black; /* セルの境界線の色と太さを設定 */
+    padding: 10px; /* セルの内側の余白を設定 */
+  }
+  
+  .table th {
+    color:#f2f2f2;
+    background-color: #6A5ACD; /* ヘッダーの背景色を設定 */
+  }
+  .table td{
+    background-color:white;
+  }
+  .name {
+    margin-left:8px;
+    font-size:30px;
+    font-family:"serif";
+    color: #3399FF;
+    font-weight: bold;
+    
+  }
+
+  

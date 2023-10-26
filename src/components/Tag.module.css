@@ -1,0 +1,6 @@
+.center {
+    display: flex;
+    flex-direction: row; /* 子要素を横方向に配置する */
+    align-items: center; /* 縦方向の中央に配置する */
+    justify-content: center; /* 横方向の中央に配置する */
+}
