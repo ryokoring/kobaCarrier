@@ -15,7 +15,7 @@ import { useRouter } from 'next/router';
 export default function MenuAppBar() {
 
   const tabMapping = {
-    "": 0,
+    "board": 0,
     "experience": 1,
     "keeplist": 2
   };
@@ -101,7 +101,7 @@ export default function MenuAppBar() {
       </AppBar>
       <AppBar position="static" sx={{ backgroundColor: '#E5E5E5' }}>
       <Tabs value={tabValue} onChange={handleTabChange} centered>
-        <Tab label="掲示板" onClick={(e) => handleTabClick(e, "/?tab=", 0)} />
+        <Tab label="掲示板" onClick={(e) => handleTabClick(e, "/?tab=board", 0)} />
         <Tab label="体験談" onClick={(e) => handleTabClick(e, "/user/experience?tab=experience", 1)} />
         <Tab label="キープリスト" onClick={(e) => handleTabClick(e, "/user/keeplist?tab=keeplist", 2)} />
       </Tabs>
