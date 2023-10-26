@@ -1,9 +1,9 @@
 import React from 'react'
 
-const postExperience = () => {
+const post = () => {
   return (
-    <div>postExperience</div>
+    <div>post</div>
   )
 }
 
-export default postExperience;
+export default post
