@@ -1,12 +1,13 @@
 .container {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding:5px; /* 枠の内側の余白を設定 */
-    width: 80%; /* 枠の幅を設定 */
-    margin: 50px auto; /* 中央寄せにするための設定 */   
+    width: 60%; /* 枠の幅を設定 */
+    margin: 20px auto; /* 中央寄せにするための設定 */   
     border-radius:25px;
   }
+  
 .subcontainer{
-    padding: 30px;
+    padding: 15px 15px 35px 15px;
     margin-left: 5px;
     margin-right: 5px;
     background-color:#DEECEB;
@@ -24,14 +25,27 @@
   justify-content: center; /* Centers the buttons horizontally */
   align-items: center;  
 }
+.name {
+  padding:3px 0px 3px 10px;
+  font-size:30px;
+  font-family:"serif";
+  color: #3399FF;
+  font-weight: bold;
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-family: 'Zen Maru Gothic', serif;
+}
 .title{
     font-size:18px;
     margin-bottom:10px;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    color: #555555;
+    /* font-family: 'Zen Maru Gothic', serif; */
+    font-family: 'Zen Maru Gothic', serif;
 }
   .table {
     width: 100%; /* 表の幅を100%に設定 */
     border-collapse: collapse; /* セルの境界線を重ねる */
+    table-layout: fixed;
   }
   
   .table th, .table td {
@@ -42,21 +56,16 @@
   .table th {
     color:#f2f2f2;
     background-color: #6A5ACD; /* ヘッダーの背景色を設定 */
+    font-family: 'Zen Maru Gothic', serif;
   }
   .table td{
+    text-align: center;
     background-color:white;
-  }
-  .name {
-    padding:3px 0px 3px 10px;
-    font-size:30px;
-    font-family:"serif";
-    color: #3399FF;
-    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    
     
   }
-
   
-
   .scroll_up {
     transition: 0.8s ease-in-out;
     transform: translateY(30px);
