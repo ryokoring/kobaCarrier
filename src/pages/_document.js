@@ -8,6 +8,10 @@ export default function Document() {
       </Head>
       <body>
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet"></link>
+
+      
         <Main />
         <NextScript />
       </body>

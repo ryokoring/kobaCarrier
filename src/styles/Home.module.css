@@ -1,0 +1,33 @@
+.center{
+    display: flex;          /* フレックスボックスを有効にする */
+      flex-direction: column; /* 子要素を縦方向に配置する */
+      align-items: center;    /* 横方向の中央に配置する */
+      justify-content: space-between; 
+  }
+.marginTop10{
+    margin-top:10px;
+}
+.marginTop20{
+    margin-top:20px;
+}
+.marginTop30{
+    margin-top:30px;
+}
+.marginTop100{
+    margin-top:100px;
+}
+.marginBottom10{
+    margin-bottom:10px;
+}
+.marginBottom20{
+    margin-bottom:20px;
+}
+.marginBottom30{
+    margin-bottom:30px;
+}
+.wf-nicomoji {
+    font-family: "Nico Moji"; 
+}
+.wf-hannari {
+     font-family: "Hannari"; 
+    }

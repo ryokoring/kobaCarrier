@@ -1,16 +1,16 @@
 .container {
-    border: 1px solid gray; /* 枠線の色と太さを設定 */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding:5px; /* 枠の内側の余白を設定 */
     width: 80%; /* 枠の幅を設定 */
-    margin: 15px auto; /* 中央寄せにするための設定 */   
+    margin: 50px auto; /* 中央寄せにするための設定 */   
     border-radius:25px;
   }
 .subcontainer{
-    padding: 20px;
-    margin-top:5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
     background-color:#DEECEB;
+    border-radius:25px;
 
 }
 .center{
@@ -18,6 +18,11 @@
     flex-direction: column; /* 子要素を縦方向に配置する */
     align-items: center;    /* 横方向の中央に配置する */
     justify-content: space-between; 
+}
+.button-align{
+  display: flex;        /* Activates Flexbox layout mode */
+  justify-content: center; /* Centers the buttons horizontally */
+  align-items: center;  
 }
 .title{
     font-size:18px;
@@ -42,7 +47,7 @@
     background-color:white;
   }
   .name {
-    margin-left:8px;
+    padding:3px 0px 3px 10px;
     font-size:30px;
     font-family:"serif";
     color: #3399FF;
@@ -50,4 +55,15 @@
     
   }
 
+  
+
+  .scroll_up {
+    transition: 0.8s ease-in-out;
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  .scroll_up.on {
+    transform: translateY(0);
+    opacity: 1.0;
+  }
   

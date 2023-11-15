@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-
-const Input = ({ onInputChange }) => {
+import styles from './Input.module.css';
+const Input = ({ onInputChange, type }) => {
   const [inputValue, setInputValue] = useState("");
 
   const handleChange = (e) => {
@@ -12,9 +12,10 @@ const Input = ({ onInputChange }) => {
   };
 
   return (
-    <div>
+    <div >
       <input
-        type="text"
+        className={styles["input"]}
+        type={type}
         value={inputValue}
         onChange={handleChange}
       />
